@@ -1,12 +1,15 @@
 # ldh-README-Generator
 
-##Purpose
+## Purpose
+
 An application intended to quickly generate README.md files for github projects
 
-##Built With
+## Built With
+
 -JavaScript
 -Node.js
 -Inquirer
 
-##Contributions
+## Contributions
+
 Made by Lacy Holleman
