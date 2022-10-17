@@ -2,7 +2,7 @@ const fs = require('fs');
 
 
 const generateMarkdown = (projectData) => {
- console.log(projectData)   
+//  console.log(projectData)   
     
 let docText =  `
 #${projectData.projectName}
@@ -25,6 +25,7 @@ ${generateCredits(projectData.contributions)}
 ${generateLicense(projectData.license)}
 
 ##Contact
+
 -Github: [${projectData.username}](https://github.com/${projectData.username})
 ${generateContact(projectData.email)}
 `
